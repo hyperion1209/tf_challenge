@@ -15,7 +15,6 @@ https://gist.github.com/aduis/5daaaa3ad69f6f1b6d4ae660f80d0d86
 - Added separate file for locals definitions
 - Added separate file for variable definitions
 - Added separate file for provider configuration
-- Changed PVC cleam template to use ReadWriteMany access mode in order to allow multiple pods to read and write to the same volume
 
 ## Assumptions
 - The AWS CLI is installed and configured

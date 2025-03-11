@@ -69,9 +69,7 @@ module "weaviate_helm" {
       name = "weaviate-data"
     }
     spec = {
-      # CHANGED: Because 2 pod replicas need to mount the PV
-      # accessModes = ["ReadWriteOnce"]
-      accessModes = ["ReadWriteMany"]
+      accessModes = ["ReadWriteOnce"]
       resources = {
         requests = {
           storage = "10Gi"
